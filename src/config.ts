@@ -330,7 +330,7 @@ export const ANALYTICS_CONFIG: AnalyticsConfig = {
   },
   umami: {
     enabled: false,
-    websiteId: 'Your websiteId in umami',
+    websiteId: 'e337983e-84ab-4387-a0c9-4b8043325cb6',
     serverUrl: 'https://cloud.umami.is/script.js',
   },
 }
