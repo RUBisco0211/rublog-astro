@@ -43,7 +43,7 @@ const maxCount = Math.max(...sortedTags.map((t) => t.count))
       {
         sortedTags.map((tag, index) => {
           const sizeClass = tag.count >= 10 ? 'text-base' : tag.count >= 5 ? 'text-sm' : 'text-xs'
-          const priorityClass = index < 6 ? 'ring-2 ring-primary/10' : ''
+          const priorityClass = 'ring-2 ring-primary/10'
 
           return (
             <a
