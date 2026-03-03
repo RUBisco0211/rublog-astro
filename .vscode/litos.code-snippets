@@ -1,7 +1,9 @@
 {
   "Litos Post Frontmatter": {
     "scope": "markdown,mdx,astro",
-    "prefix": ["litos-post", "postfm"],
+    "prefix": [
+        "post",
+    ],
     "body": [
       "---",
       "title: '${1:Your Post Title}'",
@@ -25,7 +27,9 @@
   },
   "Litos Project Frontmatter": {
     "scope": "markdown,mdx,astro",
-    "prefix": ["litos-project", "projfm"],
+    "prefix": [
+        "project"
+    ],
     "body": [
       "---",
       "name: '${1:Project Name}'",
