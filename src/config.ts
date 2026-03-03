@@ -292,8 +292,8 @@ export const COMMENT_CONFIG: CommentConfig = {
   enabled: true,
   system: 'gitalk',
   gitalk: {
-    clientID: import.meta.env.GITHUB_CLIENT_ID,
-    clientSecret: import.meta.env.GITHUB_CLIENT_SECRET,
+    clientID: import.meta.env.PUBLIC_GITHUB_CLIENT_ID,
+    clientSecret: import.meta.env.PUBLIC_GITHUB_CLIENT_SECRET,
     repo: 'rublog-astro',
     owner: 'RUBisco0211',
     admin: ['RUBisco0211'],
