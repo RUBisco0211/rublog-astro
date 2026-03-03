@@ -2,7 +2,6 @@
 title: 管理自己的GitHub项目
 description: ""
 pubDate: 2026-01-05
-recommend: true
 tags: ["GitHub", "Git"]
 ---
 

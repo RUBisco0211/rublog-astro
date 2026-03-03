@@ -2,7 +2,6 @@
 title: 使用 Git tag 和 GitHub Actions 进行版本发布
 description: ""
 pubDate: 2026-02-07
-recommend: true
 tags: ["GitHub", "Git"]
 ---
 
