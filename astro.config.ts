@@ -8,8 +8,6 @@ import expressiveCode from 'astro-expressive-code'
 import { remarkPlugins, rehypePlugins } from './plugins'
 import { SITE } from './src/config'
 
-import netlify from '@astrojs/netlify';
-
 export default defineConfig({
   site: SITE.website,
   base: SITE.base,
@@ -30,5 +28,5 @@ export default defineConfig({
   },
 
   integrations: [expressiveCode(), mdx(), react(), sitemap(), robotsTxt()],
-  adapter: netlify(),
+
 })
