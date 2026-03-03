@@ -71,7 +71,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'github',
     url: 'https://github.com/RUBisco0211',
-    icon: 'icon-[ri--github-fill]',
+    icon: 'icon-[ri--github-line]',
   },
   //   {
   //     name: 'twitter',
@@ -96,7 +96,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
  * get icon https://icon-sets.iconify.design/
  */
 export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
-  SKILLS_ENABLED: false,
+  SKILLS_ENABLED: true,
   SKILLS_DATA: [
     {
       direction: 'left',
@@ -127,36 +127,6 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           url: 'https://vuejs.org/',
         },
         {
-          name: 'Sass',
-          icon: 'icon-[skill-icons--sass]',
-          url: 'https://sass-lang.com/',
-        },
-      ],
-    },
-    {
-      direction: 'right',
-      skills: [
-        {
-          name: 'Astro',
-          icon: 'icon-[skill-icons--astro]',
-          url: 'https://astro.build/',
-        },
-        {
-          name: 'Node.js',
-          icon: 'icon-[skill-icons--nodejs-dark]',
-          url: 'https://nodejs.org/',
-        },
-        // {
-        //   name: 'React',
-        //   icon: 'icon-[skill-icons--react-dark]',
-        //   url: 'https://react.dev/',
-        // },
-        // {
-        //   name: 'Next.js',
-        //   icon: 'icon-[skill-icons--nextjs-dark]',
-        //   url: 'https://nextjs.org/',
-        // },
-        {
           name: 'Tailwind CSS',
           icon: 'icon-[skill-icons--tailwindcss-dark]',
           url: 'https://tailwindcss.com/',
@@ -165,6 +135,51 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           name: 'Vite',
           icon: 'icon-[skill-icons--vite-dark]',
           url: 'https://vitejs.dev/',
+        },
+        // {
+        //   name: 'React',
+        //   icon: 'icon-[skill-icons--react-dark]',
+        //   url: 'https://react.dev/',
+        // },
+        // {
+        //   name: 'Sass',
+        //   icon: 'icon-[skill-icons--sass]',
+        //   url: 'https://sass-lang.com/',
+        // },
+        // {
+        //   name: 'Astro',
+        //   icon: 'icon-[skill-icons--astro]',
+        //   url: 'https://astro.build/',
+        // },
+        // {
+        //   name: 'Next.js',
+        //   icon: 'icon-[skill-icons--nextjs-dark]',
+        //   url: 'https://nextjs.org/',
+        // },
+      ],
+    },
+    {
+      direction: 'right',
+      skills: [
+        {
+          name: 'Spring Boot',
+          icon: 'icon-[skill-icons--spring-dark]',
+          url: 'https://spring.io/projects/spring-boot',
+        },
+        {
+          name: 'Python',
+          icon: 'icon-[skill-icons--python-dark]',
+          url: 'https://www.python.org/',
+        },
+        {
+          name: 'Node.js',
+          icon: 'icon-[skill-icons--nodejs-dark]',
+          url: 'https://nodejs.org/',
+        },
+        {
+          name: 'Nest.js',
+          icon: 'icon-[skill-icons--nestjs-dark]',
+          url: 'https://nestjs.com/',
         },
       ],
     },
@@ -181,6 +196,11 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           icon: 'icon-[skill-icons--git]',
           url: 'https://git-scm.com/',
         },
+        {
+          name: 'GitHub',
+          icon: 'icon-[skill-icons--github-dark]',
+          url: 'https://github.com/',
+        },
         // {
         //   name: 'MongoDB',
         //   icon: 'icon-[skill-icons--mongodb]',
@@ -192,14 +212,29 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           url: 'https://vercel.com/',
         },
         {
+          name: 'Netlify',
+          icon: 'icon-[skill-icons--netlify-dark]',
+          url: 'https://www.netlify.com/',
+        },
+        {
           name: 'VS Code',
           icon: 'icon-[skill-icons--vscode-dark]',
           url: 'https://code.visualstudio.com/',
         },
         {
+          name: 'IntelliJ IDEA',
+          icon: 'icon-[skill-icons--idea-dark]',
+          url: 'https://www.jetbrains.com/idea/',
+        },
+        {
           name: 'Obsidian',
           icon: 'icon-[skill-icons--obsidian-dark]',
           url: 'https://obsidian.md/',
+        },
+        {
+          name: 'LaTeX',
+          icon: 'icon-[skill-icons--latex-dark]',
+          url: 'https://www.latex-project.org/',
         },
       ],
     },
@@ -259,11 +294,11 @@ export const COMMENT_CONFIG: CommentConfig = {
   gitalk: {
     clientID: import.meta.env.PUBLIC_GITHUB_CLIENT_ID,
     clientSecret: import.meta.env.PUBLIC_GITHUB_CLIENT_SECRET,
-    repo: 'gitalk-comment',
+    repo: 'rublog-astro',
     owner: 'RUBisco0211',
     admin: ['RUBisco0211'],
     language: 'zh-CN',
-    perPage: 5,
+    perPage: 10,
     pagerDirection: 'last',
     createIssueManually: false,
     distractionFreeMode: false,
