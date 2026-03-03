@@ -274,7 +274,7 @@ export const COMMENT_CONFIG: CommentConfig = {
 export const TAGS_CONFIG: TagsConfig = {
   title: '标签',
   description: '文章标签列表',
-  introduce: '所有标签',
+  introduce: '所有文章标签',
 }
 
 export const PROJECTS_CONFIG: ProjectConfig = {
