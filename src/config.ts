@@ -232,7 +232,7 @@ export const POSTS_CONFIG: PostConfig = {
   },
   postPageConfig: {
     size: 10,
-    type: 'time-line',
+    type: 'cover',
     coverLayout: 'right',
   },
   tagsPageConfig: {

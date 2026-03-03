@@ -34,7 +34,7 @@ const PolaroidCard: React.FC<Props> = ({ photo, index, totalPhotos, rotation, va
   return (
     <motion.div
       className={cn(
-        'inline-block relative bg-white border border-gray-200 shadow-lg cursor-pointer',
+        'inline-block relative rounded-sm bg-white border border-gray-200 shadow-lg cursor-pointer',
         'p-1 sm:p-1.5 transition-shadow duration-300 hover:shadow-xl',
         polaroidVariants[variant],
         '-ml-6 sm:-ml-4 -mt-3'
@@ -80,7 +80,7 @@ const PolaroidCard: React.FC<Props> = ({ photo, index, totalPhotos, rotation, va
             }
       }
     >
-      <div className="w-full h-full bg-gray-100 overflow-hidden">
+      <div className="w-full h-full  bg-gray-100 overflow-hidden">
         <img
           src={imgSrc}
           width={imgWidth}

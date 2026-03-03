@@ -139,7 +139,7 @@ const PhotoGalleryModal: React.FC<Props> = ({ photos, title, description, isOpen
           {/* 弹窗卡片 */}
           <motion.div
             key="modal-content"
-            className="relative bg-background shadow-2xl max-w-lg w-full mx-4 p-6"
+            className="relative bg-background shadow-2xl max-w-lg w-full mx-4 p-6 rounded-xl"
             onClick={(e) => e.stopPropagation()}
             initial={{ opacity: 0, y: 60, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -211,7 +211,7 @@ const PhotoGalleryModal: React.FC<Props> = ({ photos, title, description, isOpen
                   <button
                     onClick={goPrev}
                     disabled={currentIndex === 0}
-                    className={`absolute w-8 h-8 -left-10 top-1/2 -translate-y-1/2 shadow-lg transition-all flex items-center justify-center ${
+                    className={`rounded-full absolute w-8 h-8 -left-10 top-1/2 -translate-y-1/2 shadow-lg transition-all flex items-center justify-center ${
                       currentIndex === 0
                         ? 'bg-muted text-muted-foreground cursor-not-allowed'
                         : 'bg-background hover:bg-accent text-foreground hover:text-accent-foreground'
@@ -223,7 +223,7 @@ const PhotoGalleryModal: React.FC<Props> = ({ photos, title, description, isOpen
                   <button
                     onClick={goNext}
                     disabled={currentIndex === photos.length - 1}
-                    className={`absolute w-8 h-8 -right-10 top-1/2 -translate-y-1/2 shadow-lg transition-all flex items-center justify-center ${
+                    className={`rounded-full absolute w-8 h-8 -right-10 top-1/2 -translate-y-1/2 shadow-lg transition-all flex items-center justify-center ${
                       currentIndex === photos.length - 1
                         ? 'bg-muted text-muted-foreground cursor-not-allowed'
                         : 'bg-background hover:bg-accent text-foreground hover:text-accent-foreground'
