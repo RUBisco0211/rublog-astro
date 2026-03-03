@@ -3,6 +3,7 @@ title: WSL+Tailscale 网络环境下部署Nuxt项目
 description: ""
 pubDate: 2026-03-01
 tags: ["WSL", "Tailscale", "Nuxt", "Caddy"]
+recommend: true
 ---
 
 ## 开启Tailscale的HTTPS 功能
