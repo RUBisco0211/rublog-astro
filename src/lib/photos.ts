@@ -7,7 +7,7 @@ export const PhotosList: PhotoData[] = [
       type: 'emoji',
       value: '📺',
     },
-    description: '《火线》、《杀戮一代》',
+    description: '《火线》、《真探》、《杀戮一代》',
     date: '2026-02-10',
     travel: '',
     photos: [
@@ -16,6 +16,13 @@ export const PhotosList: PhotoData[] = [
         alt: '火线',
         width: 1280,
         height: 720,
+        variant: '4x5',
+      },
+      {
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28AqKOZFG3TE8QuDWw1yregQ2kpuDagmZTg&s',
+        alt: '真探',
+        width: 1080,
+        height: 1920,
         variant: '4x5',
       },
       {
