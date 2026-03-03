@@ -11,7 +11,7 @@
   /* 字体系统 */
   --font-serif: var(--font-lexend);
   --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-rec-mono);
 
   /* 颜色系统 */
   --color-border: hsl(var(--border));
@@ -49,9 +49,15 @@
   }
 
   /* 等宽字体 */
-  @font-face {
+  /* @font-face {
     font-family: 'GeistMono';
     src: url('/fonts/GeistMono.woff2') format('woff2');
+    font-display: swap;
+  } */
+
+  @font-face {
+    font-family: "Recursive Mono";
+    src: url('/fonts/RecursiveMonoLnrSt-Regular.woff2') format('woff2');
     font-display: swap;
   }
 }
@@ -62,7 +68,7 @@
     /* 字体族 */
     --font-lexend: 'Lexend', 'Geist', 'ShangguSansSC-VF', ui-sans-serif, system-ui, sans-serif;
     --font-sans: 'Geist', 'ShangguSansSC-VF', ui-sans-serif, system-ui, sans-serif;
-    --font-geist-mono: 'GeistMono', 'Input Mono', 'Fira Code', 'ShangguSansSC-VF', monospace;
+    --font-rec-mono: 'Recursive Mono', 'Input Mono', 'Fira Code', 'ShangguSansSC-VF', monospace;
 
     /* 基础色调 */
     --background: 255 100% 100%;

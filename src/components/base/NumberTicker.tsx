@@ -71,14 +71,14 @@ export default function NumberTicker({
 
   useEffect(() => {
     if (ref.current) {
-      ref.current.textContent = `${Intl.NumberFormat('en-US').format(direction === 'down' ? value : 0)} ${label ? label : ''}`
+      ref.current.textContent = `${Intl.NumberFormat('zh-CN').format(direction === 'down' ? value : 0)} ${label ? label : ''}`
     }
   }, [])
 
   useEffect(() => {
     const unsubscribe = springValue.on('change', (latest) => {
       if (ref.current) {
-        ref.current.textContent = `${Intl.NumberFormat('en-US').format(Number.parseInt(latest.toFixed(0)))} ${label ? label : ''}`
+        ref.current.textContent = `${Intl.NumberFormat('zh-CN').format(Number.parseInt(latest.toFixed(0)))} ${label ? label : ''}`
       }
     })
 

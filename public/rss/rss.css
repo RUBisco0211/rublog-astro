@@ -10,10 +10,16 @@
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'GeistMono';
   src: url('/fonts/GeistMono.woff2') format('woff2');
   font-weight: 400;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "Recursive Mono";
+  src: url('/fonts/RecursiveMonoCslSt-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -28,7 +34,7 @@
 :root {
   --font-lexend: 'Lexend', 'Geist', 'ShangguSansSC-VF', sans-serif;
   --font-sans: 'Geist', 'ShangguSansSC-VF', sans-serif;
-  --font-geist-mono: 'GeistMono', 'Input Mono', 'Fira Code', 'ShangguSansSC-VF', monospace;
+  --font-rec-mono: 'Recursive Mono', 'Input Mono', 'Fira Code', 'ShangguSansSC-VF', monospace;
   --background: 255 100% 100%;
   --foreground: 225 15% 12%;
   --scrollbar: 220 20% 80%;
@@ -200,7 +206,7 @@ header {
 }
 
 .post time {
-  font-family: var(--font-geist-mono);
+  font-family: var(--font-rec-mono);
   color: hsl(var(--muted-foreground));
   font-size: 12px;
   white-space: nowrap;
