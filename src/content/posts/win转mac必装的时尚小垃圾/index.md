@@ -33,7 +33,7 @@ AltTab 提供接近 Windows 的窗口级切换体验，支持：
 ### Raycast：键盘友好的全能启动器
 官网: https://www.raycast.com  
 
-![Raycast](./assets/raycast.png)
+![Raycast](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375968622_raycast.png)
 
 Raycast 是 macOS 上的启动器与自动化工具，类似于：
 - Windows 的 PowerToys Run
@@ -52,7 +52,7 @@ Raycast 是 macOS 上的启动器与自动化工具，类似于：
 ### Dropover：简单的文件中转站
 官网: https://dropoverapp.com  
 
-![Dropover](./assets/dropover.png)
+![Dropover](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375683144_dropover.png)
 
 拖拽多个文件时不方便暂存，Dropover 可以在屏幕边缘生成一个中转站来临时存放。
 最好用的唤起方式是：选择多个文件文件后拖动并晃动鼠标，非常有意思的交互。
@@ -60,7 +60,7 @@ Raycast 是 macOS 上的启动器与自动化工具，类似于：
 ### MenuWhere：随处打开应用菜单
 官网: https://manytricks.com/menuwhere/ 
 
-![MenuWhere](./assets/menuwhere.png)
+![MenuWhere](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375865535_menuwhere.png)
 
 使用 `cmd+rightclick` 在屏幕的任意位置打开当前应用的顶部应用菜单。
 
@@ -79,7 +79,7 @@ GitHub: https://github.com/sbmpost/AutoRaise
 ### iBar：状态栏图标管理
 官网: https://www.better365.cn/ibar.html  
 
-![iBar](./assets/ibar.png)
+![iBar](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375813418_ibar.png)
 
 M2 之后的 MacBook Air 由于大刘海的存在，状态栏右侧的图标非常拥挤。
 
@@ -103,7 +103,7 @@ Mac Mouse Fix 可以：
 ### 超级右键：Finder 右键菜单增强
 官网: https://www.better365.cn/irightmouse.html  
 
-![超级右键](./assets/超级右键.png)
+![超级右键](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375552906_超级右键.png)
 
 Finder 自带的右键菜单 really sucks，简陋得令人发指。
 
@@ -115,7 +115,7 @@ Finder 自带的右键菜单 really sucks，简陋得令人发指。
 ### PicView：图片查看器
 官网: https://picview.chitaner.com  
 
-![PicView](./assets/picview.png)
+![PicView](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375926320_picview.png)
 
 自带的**预览**过于简陋，必须要一个图片查看器。
 
@@ -125,7 +125,7 @@ Finder 自带的右键菜单 really sucks，简陋得令人发指。
 
 ### OpenFile：配置文件的默认打开应用
 
-![OpenFile](./assets/openfile.png)
+![OpenFile](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375897896_openfile.png)
 
 MacOS 自带的设置文件默认打开应用的方式非常分散，不便集中管理。
 
@@ -170,7 +170,7 @@ GitHub: https://github.com/thompsonate/Shifty
 
 ### FineTune：应用音量单独调节
 
-![FineTune](./assets/finetune.png)
+![FineTune](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375782566_finetune.png)
 
 MacOS 自带的音量管理基本没有。这是一个音频管理增强工具：
 - 支持切换音频输入输出设备

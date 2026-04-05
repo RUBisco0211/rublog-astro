@@ -3,6 +3,7 @@ title: Raycast拓展发布避坑
 description: ""
 pubDate: 2026-04-01
 tags: ["Raycast"]
+recommend: true
 ---
 
 ## 初次发布
@@ -37,11 +38,11 @@ tags: ["Raycast"]
 
 推荐使用 Raycast 提供的截图工具（如下），默认快捷键`cmd + option + shift + M`。
 
-![Capture](./assets/raycast-capture.png)
+![capture](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375423540_raycast-capture.png)
 
 并存放在`metadata`文件夹下，发布后会显示到商店页面中，最多可显示 6 张截图。
 
-![Store](./assets/store.png)
+![store](https://cloudflare-imgbed-1v8.pages.dev/file/img/rublog/1775375480444_store.png)
 
 ### CHANGELOG.md
 
