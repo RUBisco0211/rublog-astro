@@ -16,7 +16,7 @@ export default defineEcConfig({
     uiFontFamily: 'var(--font-sans)',
     uiFontSize: '1em',
     codeFontFamily: 'var(--font-mono)',
-    codeFontSize: '1rem',
+    codeFontSize: '0.9rem',
     codeLineHeight: '1.5',
     borderRadius: '15',
     codePaddingBlock: '0.8571429em',
