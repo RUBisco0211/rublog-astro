@@ -70,7 +70,8 @@ recommend: true
 
 如果你的扩展有其他人贡献了代码（或者你直接在 GitHub 上编辑过），直接运行 `npm run publish` 会失败。此时需要先运行`npx @raycast/api@latest pull-contributions`来拉取贡献更改，并且在本地解决冲突。
 
-**需要注意的是**，这个命令拉取的 contribution 是依赖于你本地`CHANGELOG.md`中声明的最新版本的，在运行之前务必写好你的更新内容，并留出`{PR_MERGE_DATE}`占位符（如下）。否则这个命令可能拉取上个版本的 contribution 代码，解决冲突时会引入莫名其妙的旧代码。
+> [!important]
+> **需要注意的是**，这个命令拉取的 contribution 是依赖于你本地`CHANGELOG.md`中声明的最新版本的，在运行之前务必写好你的更新内容，并留出`{PR_MERGE_DATE}`占位符（如下）。否则这个命令可能拉取上个版本的 contribution 代码，解决冲突时会引入莫名其妙的旧代码。
 
 ```md
 # Picgo Changelog
