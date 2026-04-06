@@ -18,7 +18,7 @@ export default defineEcConfig({
     codeFontFamily: 'var(--font-mono)',
     codeFontSize: '0.9rem',
     codeLineHeight: '1.5',
-    borderRadius: '15',
+    borderRadius: 'var(--radius-xl)',
     codePaddingBlock: '0.8571429em',
     codePaddingInline: '1.1428571em',
     borderColor: ({ theme }) => (theme.type === 'dark' ? '#24273a' : '#e6e9ef'),

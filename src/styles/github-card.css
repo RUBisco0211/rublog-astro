@@ -8,7 +8,7 @@
   display: block;
   padding: 1rem;
   border: 1px solid hsl(var(--border));
-  border-radius: 4px;
+  border-radius: var(--radius-xl);
   background: hsl(var(--background));
   text-decoration: none;
   color: inherit;

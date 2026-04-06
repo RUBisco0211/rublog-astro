@@ -551,7 +551,7 @@ image-figure-polaroid {
 .callout {
   padding-inline-start: 16px;
   font-size: 15px;
-  border-radius: 0;
+  border-radius: var(--radius-xl);
 
   & p {
     margin-block: var(--space-md);
@@ -676,6 +676,7 @@ image-figure-polaroid {
 
     & :is(img, video) {
       margin-block: 1.5em;
+      border-radius: var(--radius-xl)
     }
   }
 }
@@ -786,6 +787,7 @@ image-figure-polaroid {
   aspect-ratio: 16 / 9;
   margin-block: var(--space-xl);
   transform: scale(1, 1) !important;
+  border-radius: var(--radius-xl)
 }
 
 /* ===== 减少动画偏好设置 ===== */
