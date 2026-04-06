@@ -72,6 +72,7 @@ recommend: true
 
 > [!important]
 > **需要注意的是**，这个命令拉取的 contribution 是依赖于你本地`CHANGELOG.md`中声明的最新版本的，在运行之前务必写好你的更新内容，并留出`{PR_MERGE_DATE}`占位符（如下）。否则这个命令可能拉取上个版本的 contribution 代码，解决冲突时会引入莫名其妙的旧代码。
+> 因此最佳实践应该是在 PR 被合并并发布版本之后先进行一次 pull contribution, 使 `CHANGELOG.md` 中的版本与最新版本同步，再进行下个版本的 commit，就不会产生冲突了。
 
 ```md
 # Picgo Changelog
